@@ -4,16 +4,20 @@ div {
 
 #modal {
   /* visibility: visible; */
-  background-color: blue;
+  background-color: lightgray;
   display: block;
+  border-radius: 12%;
+  border-color: gray;
+  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 150px;
 }
-
-/* #modal:hover {
-  background-color: yellow;
-} */
 
 #modal:not(:target):not([open]) {
   /* visibility: hidden; */
   background-color: aqua;
   display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
