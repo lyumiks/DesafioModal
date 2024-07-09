@@ -1,0 +1,19 @@
+div {
+  color: purple;
+}
+
+#modal {
+  /* visibility: visible; */
+  background-color: blue;
+  display: block;
+}
+
+/* #modal:hover {
+  background-color: yellow;
+} */
+
+#modal:not(:target):not([open]) {
+  /* visibility: hidden; */
+  background-color: aqua;
+  display: none;
+}
